@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+#position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display_grid {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    display: inline-block;
+    height: 54vh;
+    width: 16vw;
+}
+
+.container {
+    display: inline;
+    margin: 5px 5px 5px 5px;
+}
+
+.black-block {
+    border-top: 2.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 3px;
+}
+
+.btn_x {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.btn_grey {
+    border: 1px solid gray;
+    border-radius: 2.5px;
+    background-color: lightgrey;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn_grey:hover {
+    background-color: grey;
+    color: white;
+}
+
+.btn_white {
+    border: 1px solid lightgray;
+    border-radius: 2.5px;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn_white:hover {
+    border: 1px solid gray;
+    background-color: whitesmoke;
+}
+
+#C {
+    border: 1px solid gray;
+    background-color: lightgray;
+    border-radius: 2.5px;
+    color: black;
+    width: 100px;
+    height: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#C:hover {
+    color: white;
+    background-color: gray;
+}
+
+.text_window {
+    border: 1px solid gray;
+    border-radius: 2.5px;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: monospace;
+    height: 5vh;
+    max-width: 200px;
+    padding: 10px;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
